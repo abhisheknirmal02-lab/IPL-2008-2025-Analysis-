@@ -10,16 +10,23 @@ This project demonstrates strong capabilities in data cleaning, data modeling, D
 Cricket datasets are often large and complex, making it difficult to extract actionable insights manually. The goal of this project was to:
 
 Simplify IPL data into an interactive dashboard
+
 Provide quick insights into team and player performance
+
 Enable season-wise comparison and analysis
+
 Support data-driven sports analysis
 
 🛠️ Tools & Technologies
 
 Power BI – Dashboard design & visualization
+
 DAX (Data Analysis Expressions) – KPIs & calculated measures
+
 SQL – Data extraction and validation
+
 CSV – Data source and preprocessing
+
 Data Modeling – Relationship building (fact & dimension tables)
 
 🧱 Data Modeling Approach
@@ -27,8 +34,11 @@ Data Modeling – Relationship building (fact & dimension tables)
 Designed a star schema for efficient querying:
 
 Fact Tables: Match results, player statistics
+
 Dimension Tables: Teams, players, venues, seasons
+
 Established relationships for accurate aggregation and filtering
+
 Ensured data consistency between SQL and Power BI
 
 📊 Key Dashboard Components
@@ -36,7 +46,9 @@ Ensured data consistency between SQL and Power BI
 🔹 KPI Cards (Top-Level Metrics)
 
 Total Matches, Teams, Venues
+
 Total 4’s and 6’s
+
 Centuries & Half-Centuries
 
 👉 Provides a quick snapshot of the season
@@ -44,7 +56,9 @@ Centuries & Half-Centuries
 🔹 Player Performance Analysis
 
 Orange Cap (Top Run Scorer)
+
 Purple Cap (Top Wicket Taker)
+
 Most 4’s and Most 6’s
 
 👉 Highlights individual excellence and match impact
@@ -52,7 +66,9 @@ Most 4’s and Most 6’s
 🔹 Team Performance (Points Table)
 
 Matches Played
+
 Wins, Losses
+
 Points Table Ranking
 
 👉 Helps analyze team consistency and dominance
@@ -60,6 +76,7 @@ Points Table Ranking
 🔹 Season Filter (Dynamic Slicer)
 
 Enables users to switch between IPL seasons
+
 Updates all visuals dynamically
 
 👉 Enhances user interactivity and exploration
@@ -67,35 +84,49 @@ Updates all visuals dynamically
 📈 Key Insights Generated
 
 Rajasthan Royals emerged as dominant in early seasons
+
 Strong correlation between top players and team success
+
 High number of boundaries (4s & 6s) reflects aggressive T20 gameplay
+
 Teams with consistent wins maintain top positions in points table
+
 Performance variability observed among mid-tier teams
 
 💡 Business/Analytical Value
 
 Converts raw sports data into decision-ready insights
+
 Demonstrates data storytelling for non-technical users
 
 Useful for:
 
 Sports analysts
+
 Broadcasters
+
 Fantasy league players
+
 Cricket enthusiasts
 
 ⚙️ DAX & Analytical Techniques Used
 
 Aggregations: SUM, COUNT, DISTINCTCOUNT
+
 KPI Measures for runs, wickets, matches
+
 Conditional calculations for rankings
+
 Filter context handling using slicers
 
 🎨 Dashboard Design Principles
 
 Clean and modern UI with consistent color themes (IPL branding)
+
 Card-based layout for better readability
+
 Proper spacing and alignment for user experience
+
 Use of icons and images for visual storytelling
 
 🚀 Challenges & Solutions
@@ -117,7 +148,9 @@ Use of icons and images for visual storytelling
 Successfully built a fully interactive IPL analytics dashboard that:
 
 Improves data accessibility and understanding
+
 Demonstrates end-to-end BI workflow
+
 Showcases real-world data analyst skills
 
 📸 Dashboard Preview
@@ -129,19 +162,29 @@ Dashboard preview - https://github.com/abhisheknirmal02-lab/IPL-2008-2025-Analys
 DAX Code  - https://github.com/abhisheknirmal02-lab/IPL-2008-2025-Analysis-/blob/main/IPL%20DAX%20%20Code.xlsx
 
 🧠 Skills Demonstrated
+
 Data Analysis
+
 Data Visualization
+
 Business Intelligence
+
 DAX & SQL
+
 Data Modeling
+
 Insight Generation
+
 Storytelling with Data
 
 📬 Let’s Connect
 
 Open to Data Analyst roles / internships
+
 Feel free to connect and discuss opportunities!
 
 ⭐ If You Like This Project
+
 Star ⭐ the repository
+
 Fork 🍴 and explore
