@@ -126,7 +126,7 @@ See what it lookS like - https://github.com/abhisheknirmal02-lab/IPL-2008-2025-A
 
 Dashboard preview - https://github.com/abhisheknirmal02-lab/IPL-2008-2025-Analysis-/blob/main/IPL%20DASHBOARD%20ANALYSIS.png
 
-DAX Code  - 
+DAX Code  - https://github.com/abhisheknirmal02-lab/IPL-2008-2025-Analysis-/blob/main/IPL%20DAX%20%20Code.xlsx
 
 🧠 Skills Demonstrated
 Data Analysis
