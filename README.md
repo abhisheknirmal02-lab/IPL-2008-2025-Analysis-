@@ -122,7 +122,9 @@ Showcases real-world data analyst skills
 
 📸 Dashboard Preview
 
-See it what it is look like - https://github.com/abhisheknirmal02-lab/IPL-2008-2025-Analysis-/blob/main/IPL%20ANALYSIFS%20(2008-2025).pbit
+See what it lookS like - https://github.com/abhisheknirmal02-lab/IPL-2008-2025-Analysis-/blob/main/IPL%20ANALYSIFS%20(2008-2025).pbit
+
+Dashboard preview - https://github.com/abhisheknirmal02-lab/IPL-2008-2025-Analysis-/blob/main/IPL%20DASHBOARD%20ANALYSIS.png
 
 DAX Code  - 
 
