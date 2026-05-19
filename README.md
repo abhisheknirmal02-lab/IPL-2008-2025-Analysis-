@@ -1,190 +1,108 @@
-#🏏 IPL Analysis Dashboard (2008–2025) – Portfolio Project
- 📌 Project Summary
+# 🏏 IPL Analysis (2008–2025) — Power BI Dashboard
 
-Developed a comprehensive IPL (Indian Premier League) analytics dashboard using Power BI to analyze historical data from 2008 to 2025. The project transforms raw cricket data into meaningful insights, enabling users to explore team performance, player statistics, and season trends through an interactive and visually engaging interface.
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-Sports%20Analytics-blue)
+![IPL](https://img.shields.io/badge/IPL-2008--2025-orange)
+![Domain](https://img.shields.io/badge/Domain-Cricket%20Analytics-green)
 
-This project demonstrates strong capabilities in data cleaning, data modeling, DAX, and business intelligence storytelling.
+A fully interactive **18-season IPL cricket analytics dashboard** built in Power BI, covering every match from IPL 2008 to IPL 2025. The report delivers season-by-season performance insights across teams, players, batting records, bowling records, and venues — all filterable by season using a dynamic slicer.
 
-🎯 Problem Statement
+---
 
-Cricket datasets are often large and complex, making it difficult to extract actionable insights manually. The goal of this project was to:
+## 🏆 IPL 2025 Season Highlights
 
-Simplify IPL data into an interactive dashboard
+| Metric | Value |
+|---|---|
+| Champion | Royal Challengers Bangalore |
+| Runner Up | Punjab Kings |
+| Total Matches | 74 |
+| Total Teams | 10 |
+| Total Sixes | 1,296 |
+| Total Fours | 2,251 |
+| Centuries | 9 |
+| Half Centuries | 143 |
+| Total Venues | 14 |
 
-Provide quick insights into team and player performance
+**Orange Cap (Top Batter):** B Sai Sudharsan (Gujarat Titans) — 759 runs
+**Purple Cap (Top Bowler):** M Prasidh Krishna (Gujarat Titans) — 25 wickets
+**Most Fours:** B Sai Sudharsan — 88
+**Most Sixes:** N Pooran (Lucknow Super Giants) — 40
 
-Enable season-wise comparison and analysis
+---
 
-Support data-driven sports analysis
+## 📋 IPL 2025 — Final Points Table
 
-🛠️ Tools & Technologies
+| Team | P | W | L | NR | Pts |
+|---|---|---|---|---|---|
+| Punjab Kings | 14 | 9 | 5 | 1 | 19 |
+| Royal Challengers Bangalore | 14 | 9 | 5 | 1 | 19 |
+| Gujarat Titans | 14 | 9 | 5 | 0 | 18 |
+| Mumbai Indians | 14 | 8 | 6 | 0 | 16 |
+| Sunrisers Hyderabad | 14 | 6 | 8 | 1 | 13 |
+| Lucknow Super Giants | 14 | 6 | 8 | 0 | 12 |
+| Kolkata Knight Riders | 14 | 5 | 9 | 2 | 12 |
+| Chennai Super Kings | 14 | 4 | 10 | 0 | 8 |
 
-Power BI – Dashboard design & visualization
+---
 
-DAX (Data Analysis Expressions) – KPIs & calculated measures
+## 📊 Dashboard Visuals & Features
 
-SQL – Data extraction and validation
+### 🏆 Season Filter & Champion Card
+A dynamic season slicer (2008–2025) drives all visuals simultaneously, updating champion, runner-up, match stats, and player awards for any selected season.
 
-CSV – Data source and preprocessing
+### 🟠 Orange Cap Stats
+Top run-scorer per season — player name, total runs, and team.
 
-Data Modeling – Relationship building (fact & dimension tables)
+### 🟣 Purple Cap Stats
+Leading wicket-taker per season — total wickets and team.
 
-🧱 Data Modeling Approach
+### 4️⃣ Fours & 6️⃣ Sixes Leaders
+Individual player boundary performance cards updated per season.
 
-Designed a star schema for efficient querying:
+### 📋 Points Table
+Full standings with Played, Won, Lost, No Result, Tie, and Total Points for all teams.
 
-Fact Tables: Match results, player statistics
+---
 
-Dimension Tables: Teams, players, venues, seasons
+## 🛠 Tools & Skills
 
-Established relationships for accurate aggregation and filtering
+- **Power BI Desktop** — multi-page report, custom IPL theme, dynamic season slicer
+- **DAX** — dynamic KPI measures for champion, cap winners, boundaries, and standings
+- **Data Modelling** — relationships across matches, deliveries, players, teams, and venues
+- **Conditional Formatting** — live points table with rank-based colour coding
+- **Player Image Integration** — dynamic player photos per season for cap winners
+- **Custom Branding** — IPL logo, team colours, and official visual identity applied
 
-Ensured data consistency between SQL and Power BI
+---
 
-📊 Key Dashboard Components
+## 💡 Key Insights (2025 Season)
 
-🔹 KPI Cards (Top-Level Metrics)
+- **RCB won IPL 2025** despite finishing level on points (19) with Punjab Kings
+- **Gujarat Titans** produced both the Orange Cap and Purple Cap winners in the same season
+- **1,296 sixes** hit across 74 matches — average of 17.5 sixes per match
+- **N Pooran** (Lucknow Super Giants) smashed 40 sixes — the most by any individual
+- **Chennai Super Kings** had a disappointing season — only 4 wins from 14 games
+- **9 centuries** scored reflect the high-scoring, batter-friendly nature of IPL 2025
 
-Total Matches, Teams, Venues
+---
 
-Total 4’s and 6’s
+## 📂 Files
 
-Centuries & Half-Centuries
 
-👉 Provides a quick snapshot of the season
+├── [IPL_Analysis_2008_2025.pbix](https://github.com/abhisheknirmal02-lab/IPL-2008-2025-Analysis-/blob/main/IPL%20ANALYSIFS%20(2008-2025).pbit)   # Power BI report file
+├── [DAX Code](https://github.com/abhisheknirmal02-lab/IPL-2008-2025-Analysis-/blob/main/IPL%20DAX%20%20Code.xlsx)    # DAX Code file
+└── [Dashboard preview](https://github.com/abhisheknirmal02-lab/IPL-2008-2025-Analysis-/blob/main/IPL%20DASHBOARD%20ANALYSIS.png)              # Dashboard preview images
 
-🔹 Player Performance Analysis
 
-Orange Cap (Top Run Scorer)
+---
 
-Purple Cap (Top Wicket Taker)
+## 🚀 How to Use
 
-Most 4’s and Most 6’s
+1. Download `IPL_Analysis_2008_2025.pbix` and open in Power BI Desktop
+2. Use the **Season slicer** (top right) to select any IPL season from 2008 to 2025
+3. All KPI cards, cap winners, boundary leaders, and the points table update instantly
+4. Hover over visuals for detailed tooltips on player and team performance
 
-👉 Highlights individual excellence and match impact
+---
 
-🔹 Team Performance (Points Table)
-
-Matches Played
-
-Wins, Losses
-
-Points Table Ranking
-
-👉 Helps analyze team consistency and dominance
-
-🔹 Season Filter (Dynamic Slicer)
-
-Enables users to switch between IPL seasons
-
-Updates all visuals dynamically
-
-👉 Enhances user interactivity and exploration
-
-📈 Key Insights Generated
-
-Rajasthan Royals emerged as dominant in early seasons
-
-Strong correlation between top players and team success
-
-High number of boundaries (4s & 6s) reflects aggressive T20 gameplay
-
-Teams with consistent wins maintain top positions in points table
-
-Performance variability observed among mid-tier teams
-
-💡 Business/Analytical Value
-
-Converts raw sports data into decision-ready insights
-
-Demonstrates data storytelling for non-technical users
-
-Useful for:
-
-Sports analysts
-
-Broadcasters
-
-Fantasy league players
-
-Cricket enthusiasts
-
-⚙️ DAX & Analytical Techniques Used
-
-Aggregations: SUM, COUNT, DISTINCTCOUNT
-
-KPI Measures for runs, wickets, matches
-
-Conditional calculations for rankings
-
-Filter context handling using slicers
-
-🎨 Dashboard Design Principles
-
-Clean and modern UI with consistent color themes (IPL branding)
-
-Card-based layout for better readability
-
-Proper spacing and alignment for user experience
-
-Use of icons and images for visual storytelling
-
-🚀 Challenges & Solutions
-
-❗ Challenge: Data inconsistency between sources
-
-✔️ Solution: Cross-validated data using SQL queries and Power BI measures
-
-❗ Challenge: Handling multiple seasons dynamically
-
-✔️ Solution: Implemented slicers and proper data modeling
-
-❗ Challenge: Maintaining performance with large dataset
-
-✔️ Solution: Optimized model using relationships and calculated measures
-
-📌 Project Outcome
-
-Successfully built a fully interactive IPL analytics dashboard that:
-
-Improves data accessibility and understanding
-
-Demonstrates end-to-end BI workflow
-
-Showcases real-world data analyst skills
-
-📸 Dashboard Preview
-
-See what it lookS like - https://github.com/abhisheknirmal02-lab/IPL-2008-2025-Analysis-/blob/main/IPL%20ANALYSIFS%20(2008-2025).pbit
-
-Dashboard preview - https://github.com/abhisheknirmal02-lab/IPL-2008-2025-Analysis-/blob/main/IPL%20DASHBOARD%20ANALYSIS.png
-
-DAX Code  - https://github.com/abhisheknirmal02-lab/IPL-2008-2025-Analysis-/blob/main/IPL%20DAX%20%20Code.xlsx
-
-🧠 Skills Demonstrated
-
-Data Analysis
-
-Data Visualization
-
-Business Intelligence
-
-DAX & SQL
-
-Data Modeling
-
-Insight Generation
-
-Storytelling with Data
-
-📬 Let’s Connect
-
-Open to Data Analyst roles / internships
-
-Feel free to connect and discuss opportunities!
-
-⭐ If You Like This Project
-
-Star ⭐ the repository
-
-Fork 🍴 and explore
+*Built as a portfolio project to demonstrate sports data analytics and dynamic Power BI dashboard design across 18 seasons of IPL data. ⭐ Star this repo if you're a cricket fan!*
